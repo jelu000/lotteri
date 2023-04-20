@@ -24,11 +24,10 @@ class Lotteri:
         "parfume från Hugo Boss",
         "konsertbiljett till The Killers",
         "ett kilo kattmat",
-        "en marsvin"
+        "ett marsvin"
         ]
 
     def get_vinst(self):
         slumptal = random.randint(0, 19)
-        #print("slump= " +str(slumptal)+ " Längd= " + str(len(self.list_vinster)) )
         return self.list_vinster[slumptal]
         

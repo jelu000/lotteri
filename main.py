@@ -1,10 +1,12 @@
-import lotter
+import lotteri
+import os
 
-lotteriet = lotter.Lotteri()
+lotteriet = lotteri.Lotteri()
 looping = True
 
 while looping:
-
+    
+    os.system('cls' if os.name == 'nt' else 'clear')
     antal_lotter = input("\n\t\tHur många lotter vill du ha? Max 3st! : ")
 
     
@@ -12,7 +14,8 @@ while looping:
         int_antal_lotter = int(antal_lotter)
         i = 0
         if (int_antal_lotter < 4):
-
+            
+            os.system('cls' if os.name == 'nt' else 'clear')
             print("\n\t\tGrattis du vann det här! ")
             while i < int_antal_lotter:
                 vinst = lotteriet.get_vinst()
