@@ -11,8 +11,8 @@ class Lotteri:
         "10 liter tvål",
         "BMX cykel",
         "Surf Bräda ",
-        "Burton Snowboard"
-        "Kawasaki KLX 230 Cross"
+        "Burton Snowboard",
+        "Kawasaki KLX 230 Cross",
         "ett paket Bregott",
         "Hawai resa",
         "en biltvätt på OK",

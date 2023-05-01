@@ -45,12 +45,12 @@ def update_listBox(antal_lotter):
                 listbox.insert((i+2), vinst)
                 i += 1 
             
+        
         elif (int_antal_lotter > 3):
-            def show_alert():
-                messagebox.showinfo("Du har valt för många lotter!")
+            messagebox.showinfo("Du har valt för många lotter!")
+    
     except ValueError:
-        def show_alert():
-            messagebox.showinfo("Endast siffror tillåtna!")
+        messagebox.showinfo("Endast siffror tillåtna!")
 
 def clickSlumpaButton():
     antal_lott = textbox_antal.get()
